@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- ANTES DE DEPLOYAR REVISAR EL PIE DEL CODIGO -->
+
+<head>
+  <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- ========== FAVICON ========== -->
+	<link rel="icon" type="image/png" sizes="16x16" href="img/logo1.webp">
+
+	<!-- ========== STYLE ========== -->
+	<link rel="stylesheet" href="style/normalize.css">
+	<link rel="stylesheet" href="style/fonts.css">
+	<link rel="stylesheet" href="style/aos.css">
+	<link rel="stylesheet" href="style/style.css">
+
+	<!-- ========== JS ========== -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/displacement-img.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/js.js"></script>
+
+	<title>Portfolio - Dante Fontana</title>
+</head>
+
+<body>
+  <div class="wrapp">
+    <!-- ========== PRE-LOADER ========== -->
+		<div class="preloader">
+			<div class="preloader__box">
+				<span><img src="img/logo1.webp" alt="logo image"></span>
+			</div>
+			<span class="preloader__txt">charging...</span>
+		</div>
+
+		<!-- ========== 01 - INICIO ========== -->
+		<div class="menu-container">
+			<button class="menu-close">close</button>
+			<div class="socials">
+				<a title="Spanish" href="./index.html"><img src="./img/flag/spain1.png" alt="Spanish img"></a>
+				<a title="English" href="./indexeng.html"><img src="./img/flag/usa1.png" alt="English img"></a>
+				<a title="Linkedin" href="https://www.linkedin.com/in/maurifl/" target="_blank"><img src="./img/social/linke1.png" alt="Linkedin 25"></a>
+				<a title="Github" href="https://github.com/maurifl?tab=repositories" target="_blank"><img src="./img/social/git1.png" alt="Github 25"></a>
+				<a title="MoodleNet" href="https://moodle.net/profile/pJZq19r3/dante-mauricio-fontana-laplagne" target="_blank"><img src="./img/social/mood1.png" alt="MoodleNet 25"></a>
+				<a title="Resume" href="rec/DanteFontana - QA jr.pdf" target="_blank"><img src="./img/social/resu1.png" alt="Resume 25"></a>
+			</div>
+			<div id="menu" class="menu">
+				<div class="menu__item">
+					<a href="#home" class="menu__item-link">start</a>
+					<div class="marquee">
+						<div class="marquee__inner">
+							<span>start - start - start - start - start - start - start</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- ========== MENU ========== -->
+				<div class="menu__item">
+					<a href="#about" class="menu__item-link">know me</a>
+					<div class="marquee">
+						<div class="marquee__inner">
+							<span>know me - know me - know me - know me - know me - know me - know me</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="menu__item">
+					<a href="#skill" class="menu__item-link">skill</a>
+					<div class="marquee">
+						<div class="marquee__inner">
+							<span>skill - skill - skill - skill - skill - skill - skill</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="menu__item">
+					<a href="#contact" class="menu__item-link">contact</a>
+					<div class="marquee">
+						<div class="marquee__inner">
+							<span>contact - contact - contact - contact - contact - contact - contact</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- ========== LOGO ========== -->
+		<nav class="nav">
+			<a title="Principal" href="../index.html" class="logo anim" data-aos="anim_left" target="_self"><img src="../img/logo.webp" alt="imagen de logo"></a>
+			<button class="burger anim">
+				<span class="burger__line"></span>
+				<span class="burger__line"></span>
+			</button>
+		</nav>
+
+		<!-- ========== BOTON ARRIBA ========== -->
+		<button class="up">above</button>
+
+		<!-- ========== HEADER ========== -->
+		<header id="home" class="header">
+			<div class="header__wrapp">
+
+				<!-- imagen -->
+				<div class="header__img-wrapp">
+					<div class="header__img-bg">
+						<span class="header__let">x</span>
+						<img src="img/head-img-bg.webp" class="img_bg" alt="head-img-bg.webp">
+					</div>
+					<div class="header__num"><span>01</span></div>
+				</div>
+
+				<!-- nombre -->
+				<div class="content">
+					<h1 class="header__title">
+						<span>dante m.</span>
+						<span class="header__title_black">fontana l.</span>
+						<span>QA/DEV</span>
+					</h1>
+				</div>
+
+				<!-- git, linkedin, resume y btn bajar -->
+				<div class="header__bott">
+					<div class="content">
+						<div class="header__bott-wrapp">
+							<div class="header__bott-scroll">
+								<button class="header-scroll">lower</button>
+								<button></button>
+							</div>
+							<ul class="header__social-wrapp">
+								<li class="header__social-item">
+									<a title="Spanish" class="header__social-link" href="index.html"><img src="./img/flag/spain.png"
+											alt="Spain flag"></a>
+								</li>
+								<li class="header__social-item">
+									<a title="English" class="header__social-link" href="indexeng.html"><img src="./img/flag/usa.png"
+											alt="USA flag"></a>
+								</li>
+								<li class="header__social-item">
+									<a title="Linkedin" class="header__social-link" href="https://www.linkedin.com/in/maurifl/"
+										target="_blank"><img src="img/social/linke.png" alt="Linkedin 31"></a>
+								</li>
+								<li class="header__social-item">
+									<a title="Github" class="header__social-link" href="https://github.com/maurifl?tab=repositories"
+										target="_blank"><img src="img/social/git.png" alt="Github 31"></a>
+								</li>
+								<li class="header__social-item">
+									<a title="MoodleNet" class="header__social-link" href="https://moodle.net/profile/pJZq19r3/dante-mauricio-fontana-laplagne"
+										target="_blank"><img src="img/social/mood.png" alt="MoodleNet 31"></a>
+								</li>
+								<li class="header__social-item">
+									<a title="Resume" class="header__social-link" href="rec/DanteFontana - QA jr.pdf"
+										target="_blank"><img src="img/social/resu.png" alt="Resume 31"></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- ========== MAIN ========== -->
+		<main class="main">
+
+			<!-- ========== 02 - CONOCEME ========== -->
+			<section id="about" class="about _padd_top-bott">
+
+				<!-- título -->
+				<div class="section-title">
+					<div class="content">
+						<h2 class="section-title__wrapp">
+							<span class="section-title__item" data-aos="anim_title">Know me</span>
+							<span class="section-title__item" data-aos="anim_title" data-aos-delay="100">know me</span>
+							<span class="section-title__num" data-aos="anim_title">02</span>
+						</h2>
+					</div>
+				</div>
+
+				<!-- imagen y descripción -->
+				<div class="section-content">
+					<div class="about__wrapp">
+
+						<!-- imagen -->
+						<div class="about__img">
+							<div class="about__img-wrapp" data-aos="anim_height" data-aos-offset="250">
+								<img src="img/about.webp" alt="about">
+							</div>
+							<span class="about__span-frame"></span>
+							<span class="about__span-frame"></span>
+							<span class="about__span-frame"></span>
+							<span class="about__span-frame"></span>
+						</div>
+
+						<!-- descripción -->
+						<div class="about__txt" data-aos="anim_left" data-aos-offset="250">
+							<p>I'm a developer with experience in C# WinForms, database administration, 
+							and front-end development. Regarding QA, I can apply my development skills
+							to understand quality assurance principles and collaborate on software
+							improvements through testing and automation.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ========== 03 - SKILL ========== -->
+			<section class="top _padd_top-bott" id="skill">
+
+				<!-- título -->
+				<div class="section-title">
+					<div class="content">
+						<h2 class="section-title__wrapp">
+							<span class="section-title__item" data-aos="anim_title">top skills</span>
+							<span class="section-title__item" data-aos="anim_title" data-aos-delay="100">top
+								skills</span>
+							<span class="section-title__num" data-aos="anim_title">03</span>
+						</h2>
+					</div>
+				</div>
+
+				<!-- contenido -->
+				<div class="section-content">
+					<div class="top__wrapp">
+
+						<!-- contenido -->
+						<div class="top__txt">
+
+							<!-- grupo 1 - QA -->
+							<div class="top__item" data-aos="anim_left" data-id="1">
+								<div class="top__head">
+									<h3>/<span class="top__head_hover">1</span>/<span class="top__head_actve">QA <img src="img/social/handClick.png"></span></h3>
+								</div>
+								<div class="top__descript">
+									<p>Manual & Automation QA with experience in Selenium, Maven, Jenkins, and programming.
+										I ensure quality software through efficient testing.
+										<br>
+										<br>🚀 Discover my work and projects at this link!
+										<br>
+										<br><li class="getin__item">
+											<a href="../qa/QAeng.html" class="getin__link" data-aos="anim_left" target="_self">qa jobs</a>
+										</li>
+									</p>
+								</div>
+							</div>
+
+							<!-- grupo 2 - DEVELOPER -->
+							<div class="top__item" data-aos="anim_left" data-id="2">
+								<div class="top__head">
+									<h3>/<span class="top__head_hover">2</span>/<span class="top__head_actve">Developer <img src="img/social/handClick.png"></span></h3>
+								</div>
+								<div class="top__descript">
+									<p>Developer with experience in HTML5, CSS3, Java, and C#. I create efficient and scalable solutions. 
+										<br>
+										<br>🚀 Discover my work and projects at this link!
+										<br>
+										<br><li class="getin__item">
+											<a href="../dev/DEVeng.html" class="getin__link" data-aos="anim_left" target="_self">dev jobs</a>
+										</li>
+									</p>
+								</div>
+							</div>
+
+							<!-- grupo 3 - PROMPT -->
+							<div class="top__item" data-aos="anim_left" data-id="3">
+								<div class="top__head">
+									<h3>/<span class="top__head_hover">3</span>/<span class="top__head_actve">Prompts <img src="img/social/handClick.png"></span></h3>
+								</div>
+								<div class="top__descript">
+									<p>Prompt Analyst, expert in creating precise instructions to optimize AI responses. 
+										<br>
+										<br>🚀 Discover my work and projects at this link!
+										<br>
+										<br><li class="getin__item">
+											<a href="../prompt/PROMPTeng.html" class="getin__link" data-aos="anim_left" target="_self">ia jobs</a>
+										</li>
+									</p>
+								</div>
+							</div>
+
+							<!-- grupo 4 - DISEÑO -->
+							<div class="top__item" data-aos="anim_left" data-id="4">
+								<div class="top__head">
+									<h3>/<span class="top__head_hover">4</span>/<span class="top__head_actve">Design <img src="img/social/handClick.png"></span></h3>
+								</div>
+								<div class="top__descript">
+									<p>Experience in creating attractive and functional visual pieces.
+										<br>
+										<br>🎨🚀 Discover my work and projects at this link!
+										<br>
+										<br><li class="getin__item">
+											<a href="../design/DESIGNeng.html" class="getin__link" data-aos="anim_left" target="_self">design jobs</a>
+										</li>
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- imagenes -->
+						<div class="top__img" data-aos="anim_scale">
+							<div class="top__img-line"></div>
+							<div class="top__img-wrapp">
+								<span id="1-top__img" class="top__img-item">
+									<img src="img/qualities/top1.png" alt="top1.png">
+								</span>
+								<span id="2-top__img" class="top__img-item">
+									<img src="img/qualities/top2.png" alt="top2.png">
+								</span>
+								<span id="3-top__img" class="top__img-item">
+									<img src="img/qualities/top3.png" alt="top3.png">
+								</span>
+								<span id="4-top__img" class="top__img-item">
+									<img src="img/qualities/top4.png" alt="top4.png">
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ========== 04 - TRABAJOS ANTERIORES ========== -->
+			<section class="brends _padd_top-bott" id="historial">
+
+				<!-- título -->
+				<div class="section-title">
+					<div class="content">
+						<h2 class="section-title__wrapp">
+							<span class="section-title__item" data-aos="anim_title">where I worked</span>
+							<span class="section-title__item" data-aos="anim_title" data-aos-delay="100">where I worked</span>
+							<span class="section-title__num" data-aos="anim_title">04</span>
+						</h2>
+					</div>
+				</div>
+
+				<!-- contenido -->
+				<div class="section-content">
+					<div class="brends__wrapp">
+
+						<!-- imagen 1 -->
+						<div class="brends__item" data-aos="anim_scale">
+							<img src="img/brends/brend1.webp" alt="brend1">
+						</div>
+
+						<!-- imagen 2 -->
+						<div class="brends__item" data-aos="anim_scale">
+							<img src="img/brends/brend2.webp" alt="brend2">
+						</div>
+
+						<!-- imagen 3 -->
+						<div class="brends__item" data-aos="anim_scale">
+							<img src="img/brends/brend3.webp" alt="brend3">
+						</div>
+
+						<!-- imagen 4 -->
+						<div class="brends__item" data-aos="anim_scale">
+							<img src="img/brends/brend4.webp" alt="brend4">
+						</div>
+
+						<!-- imagen 5 -->
+						<div class="brends__item" data-aos="anim_scale">
+							<img src="img/brends/brend5.webp" alt="brend5">
+						</div>
+
+						<!-- imagen 6 -->
+						<div class="brends__item" data-aos="anim_scale">
+							<img src="img/brends/brend6.webp" alt="brend6">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ========== 05 - CONTACTAME ========== -->
+			<section id="contact" class="getin _padd_top-bott">
+
+				<!-- título -->
+				<div class="section-title">
+					<div class="content">
+						<h2 class="section-title__wrapp">
+							<span class="section-title__item" data-aos="anim_title">contact me</span>
+							<span class="section-title__item" data-aos="anim_title"
+								data-aos-delay="100">contact me</span>
+							<span class="section-title__num" data-aos="anim_title">05</span>
+						</h2>
+					</div>
+				</div>
+
+				<!-- contenido -->
+				<div class="section-content">
+					<ul class="getin__wrapp">
+						<!-- linkedin -->
+						<li class="getin__item">
+							<a href="https://www.linkedin.com/in/maurifl/" class="getin__link" data-aos="anim_left"
+								target="_blank">linkedin</a>
+						</li>
+
+						<!-- github -->
+						<li class="getin__item">
+							<a href="https://github.com/maurifl?tab=repositories" class="getin__link"
+								data-aos="anim_left" target="_blank">github</a>
+						</li>
+
+            <!-- moodlenet -->
+						<li class="getin__item">
+							<a href="https://moodle.net/profile/pJZq19r3/dante-mauricio-fontana-laplagne" class="getin__link"
+								data-aos="anim_left" target="_blank">moodlenet</a>
+						</li>
+
+						<!-- teléfono -->
+						<!-- <li class="getin__item">
+							<a href="tel:+54 (264) 515 2222" class="getin__link" data-aos="anim_left"
+								target="_blank">teléfono</a>
+						</li> -->
+
+						<!-- gmail -->
+						<li class="getin__item">
+							<a href="mailto:maurifl@gmail.com" class="getin__link" data-aos="anim_left"
+								target="_blank">gmail</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+
+		<!-- ========== DERECHOS RESERVADOS ========== -->
+		<footer class="footer">
+			<span>All rights reserved DMF 2025 ©</span>
+		</footer>
+	</div>
+</body>
+
+</html>
+
+<!--
+    =========== DEPLOYAR ===========
+	- login firebase
+	- firebase init
+	- yes
+	- Hosting configure files for firebase hosting...
+	- space bar
+	- enter
+	- directory public (enter)
+	- yes
+	- no
+	- guardar los archivos en la carpeta public
+	- firebase deploy
+
+    =========== DEPLOYAR IMPORTANTE ===========
+  - En caso de estar logueado, directamente en cmd
+  - Ubicamos en public
+  - firebase deploy
+
+    =========== EMAIL ===========
+    youtube: https://www.youtube.com/watch?v=mmo9PR_9m84
+    https://formsubmit.co/
+
+    <form action="https://formsubmit.co/[direccion de email recepcion]" method="POST" class="contact__form">
+    En cada input colocar name="[del tipo o clace]"
+
+    <input type="hidden" name="_captcha" value="false">  
+    <input type="hidden" name="_template" value="box"> 
+    <input type="hidden" name="_next" value="[HOME del site]">
+
+    =========== FIREBASE ===========
+    https://www.youtube.com/watch?v=drvXMz75k5s
+-->
